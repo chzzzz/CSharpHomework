@@ -1,0 +1,7 @@
+E:\HomeWork2\program2\bin\Debug\program2.exe.config
+E:\HomeWork2\program2\bin\Debug\program2.exe
+E:\HomeWork2\program2\bin\Debug\program2.pdb
+E:\HomeWork2\program2\obj\Debug\program2.csprojAssemblyReference.cache
+E:\HomeWork2\program2\obj\Debug\program2.csproj.CoreCompileInputs.cache
+E:\HomeWork2\program2\obj\Debug\program2.exe
+E:\HomeWork2\program2\obj\Debug\program2.pdb
