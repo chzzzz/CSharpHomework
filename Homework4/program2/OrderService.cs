@@ -15,7 +15,7 @@ namespace program2
             Order order = new Order(orderDetailNu, orderName,finalOrder+1);
             try
             {
-                Console.WriteLine("创建订单开始" + " " + "名称：" + orderName + " " + "订单号：" + finalOrder + 1);
+                Console.WriteLine("创建订单开始" + " " + "名称：" + orderName + " " + "订单号：" +$"{finalOrder+1}");
                 for (int i = 0; i < orderDetailNu; i++)
                 {
                     Console.WriteLine("输入商品名称");
@@ -28,6 +28,7 @@ namespace program2
                 }
                 orders.Add(order);
                 finalOrder += 1;
+                Console.WriteLine("创建成功");
             }catch
             {
                 Console.WriteLine("数字输入有误");
@@ -88,6 +89,7 @@ namespace program2
                 {
                     throw new MyException("输入数字有误", e);
                 }
+                Console.WriteLine("修改成功");
             }catch(MyException e)
             {
                 if(e.InnerException!=null)
@@ -109,6 +111,7 @@ namespace program2
                     throw new MyException("找不出此条目");
                 }
                 orders.Remove(InauiryOrder(orderID));
+                Console.WriteLine("删除成功");
             }catch(MyException e)
             {
                 Console.WriteLine(e.Message);

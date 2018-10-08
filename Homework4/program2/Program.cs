@@ -12,8 +12,9 @@ namespace program2
         {
             OrderService service = new OrderService();
             service.AddOrder("asd", 4);
-            service.AddOrder("obc", 2);
-            service.AddOrder("csd", 1);
+            service.AddOrder("asds", 1);
+            service.DeleteOrder(2);
+            service.ModifyOrder(2);
         }
     }
 }
